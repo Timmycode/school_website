@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img class="logo" src="images/Logo.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+          
+                <i class="fa fa-bars"  onclick="showMenu()"></i>
+           
+         </nav>
+     <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+    
+   <section class="blog-content">
+     <div class="row"> 
+        <div class="blog-left"> 
+        <img src="images/student 2.jpg">
+         <h2>Our Certificate & Online Programs For 2023  </h2>
+         
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter you name..">
+                <input type="email" placeholder="Enter you Email..">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">Post Comment</button>
+            </form>
+        </div>
+
+
+
+        </div>
+
+        
+        <div class="blog-right"> 
+            <h3> Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>18</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>Auto CAD</span>
+                <span>39</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>20</span>
+            </div>
+        </div>
+       </div>
+   </section>
+
+ <!---footer-->
+
+    <section class="footer">
+        <h4>About US</h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+            et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+            ut aliquip ex ea commodo consequat.
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Farmus</p>
+    </section>
+
+
+   
+     <script>
+       
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+             navLinks.style.right="0"
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+
+     </script>
+
+    
+</body>
+</html>
